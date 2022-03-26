@@ -1,6 +1,6 @@
 # test_repo_pylinter
 
-Copyright (c) 2021, programmingwithalex
+Copyright (c) 2021, [programmingwithalex](https://github.com/programmingwithalex)
 
 ## Description
 
