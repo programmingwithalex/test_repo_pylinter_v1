@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: linting
-      uses: programmingwithalex/pylinter@v1.4.3
+      uses: programmingwithalex/pylinter@latest
       with:
         python-root: '.'
         flake8-flags: ''
