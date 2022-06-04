@@ -14,7 +14,7 @@ jobs:
         python-root: '.'
         flake8-flags: ''
         mypy-flags: ''
-        fail-on-isort: true
+        fail-on-isort: false
         # skip-flake8: false
         # skip-mypy: false
         # skip-isort: false

@@ -1,5 +1,5 @@
-import math
 import os
+import math
 
 
 def func1(a, b) -> int:
