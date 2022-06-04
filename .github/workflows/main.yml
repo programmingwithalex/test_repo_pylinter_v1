@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: linting
-      uses: programmingwithalex/pylinter@latest
+      uses: programmingwithalex/pylinter@main
       with:
         python-root: '.'
         flake8-flags: ''
@@ -28,7 +28,7 @@ jobs:
         git add -A && git diff-index --cached --quiet HEAD || git commit -m 'isort'
 
     - name: push isort changes
-      uses: ad-m/github-push-action@v0.5.0
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GH_ACCESS_TOKEN }}
         branch: ${{ github.ref }}
