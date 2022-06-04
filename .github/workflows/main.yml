@@ -15,6 +15,11 @@ jobs:
         flake8-flags: ''
         mypy-flags: ''
         fail-on-isort: false
+        # skip-flake8: false
+        # skip-mypy: false
+        # skip-isort: false
+        # mypy-ignore-dirs-files: ''
+        # requirements-file: ''
 
     - name: commit isort changes
       run: |
